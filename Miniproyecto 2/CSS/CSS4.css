@@ -1,0 +1,846 @@
+/*FONDO DE PANTALL*/
+
+@media (max-width: 2560px) {
+
+    body {
+        /*
+    background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
+    background-size: cover;
+*/
+        background-color:aliceblue;
+    }
+
+    .general {
+        margin: 0px;
+        width: 90vw;
+        height: auto;
+        /*    background-color: hsl(0, 0%, 81%);*/
+
+    }
+
+
+
+    /*Cabecera*/
+
+    .cabecera {
+        float: left;
+        margin: 0px 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        background-image: linear-gradient(hsl(212, 70%, 50%), white);
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+    .cabecera h1 {
+
+        font-size: 4em;
+        color: aliceblue;
+
+
+    }
+
+    /*Logo*/
+    .cabecera img {
+        width: 200px;
+        height: auto;
+    }
+
+    /*Botones/links*/
+
+    .paginas {
+        float: left;
+        padding: 50px 0px;
+        width: 100%;
+        background-image: linear-gradient(white,hsl(212, 70%, 50%));
+        border-radius: 0px 0px 8px 8px;
+
+    }
+
+    .boton {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 7px;
+        color: black;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+        width: 19vw;
+        font-size: 1.9em;
+
+    }
+
+    /*Boton coloreado que indica en que parte de las paginas esta*/
+    .marcador :first-child {
+        background-color: hsl(212, 70%, 50%);
+        color: aliceblue;
+        /*    border-color: aliceblue;*/
+    }
+
+    /*Al pulsar*/
+    .boton:active {
+        background-color: white;
+        color: hsl(212, 70%, 50%);
+        border-color: hsl(212, 70%, 50%);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+        transform: translateY(7px);
+    }
+
+    .boton:hover {
+        background-color: hsl(212, 70%, 50%);
+        color: aliceblue;
+    }
+
+
+    /*Texto*/
+    .historia {
+        float: left;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+
+        /*  OPACIDAD INCLUIDA EN EL HSL  */
+        background-color: hsl(212, 70%, 50%);
+        border: 4px solid white;
+        border-radius: 8px;
+        /*	overflow: scroll;*/
+
+
+        /*    opacity: 0.7;*/
+
+
+    }
+
+    .historia p {
+        float: left;
+        width: 30vw;
+        font-size: 3vh;
+        color: aliceblue;
+        /*    opacity: 1;*/
+    }
+
+    .imagenes p {
+        /*        padding-top: 3vh;*/
+        float: left;
+        font-size: 2em;
+        width: 30vw;
+    }
+
+    /*IMAGENES*/
+    .imagenes {
+        float: left;
+        padding: 52px 0px;
+        width: 90vw;
+
+    }
+
+    .imagenes img {
+        float: left;
+        width: 10vw;
+        height: auto;
+        margin-left: 25vw;
+        /*        border: 4px solid white;*/
+        border-radius: 8px;
+    }
+
+
+
+    .redes {
+        clear: both;
+        margin-top: 2vw;
+    }
+
+    .redes img {
+        width: 6vw;
+        margin: 0px 8vw;
+        
+
+    }
+
+    .historia img {
+        margin-left: 30vw;
+        margin-top: 2vh;
+        float: left;
+        width: 5vw;
+    }
+
+
+    /*  TABLA  */
+    .equipo img {
+        width: 3vw;
+    }
+    table{border-collapse: collapse;}
+    
+    table tr th , table tr td{
+        
+        width: 10vw;
+        border: 1px hsl(212, 70%, 50%) solid;
+       
+        text-align: center;
+        
+        
+    }
+    
+    table tr th {
+        padding: 2vh 0px;
+        font-size: 2em;
+        background-color:hsl(212, 70%, 50%);
+        color: aliceblue;
+        
+        
+    }
+    
+    table tr td {
+        padding: 2vh 0px;
+        font-size: 1.6em;
+       
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1440px) {
+
+/*
+    body {
+        
+    background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
+    background-size: cover;
+
+        background-color: red;
+    }
+*/
+
+    .general {
+        margin: 0px;
+        width: 90vw;
+        height: auto;
+        /*    background-color: hsl(0, 0%, 81%);*/
+
+    }
+
+
+
+    /*Cabecera*/
+
+    .cabecera {
+        float: left;
+        margin: 0px 0px;
+        margin-bottom: 0px;
+        width: 100%;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+    .cabecera h1 {
+
+        font-size: 4em;
+        color: aliceblue;
+
+
+    }
+
+    /*Logo*/
+    .cabecera img {
+        width: 200px;
+        height: auto;
+    }
+
+    /*Botones/links*/
+
+    .paginas {
+        float: left;
+        padding: 50px 0px;
+        width: 90vw;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 0px 0px 8px 8px;
+
+    }
+
+    .boton {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 7px;
+        color: black;
+        padding: 18px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+        width: 21vw;
+        font-size: 1.3em;
+
+    }
+
+    /*Boton coloreado que indica en que parte de las paginas esta*/
+    .marcador :first-child {
+        background-color: hsl(212, 70%, 50%);
+        color: aliceblue;
+        /*    border-color: aliceblue;*/
+    }
+
+    /*Al pulsar*/
+    .boton:active {
+        background-color: white;
+        color: hsl(212, 70%, 50%);
+        border-color: hsl(212, 70%, 50%);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+        transform: translateY(7px);
+    }
+
+    .boton:hover {}
+
+
+    /*Texto*/
+    .historia {
+        float: left;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+        /*  OPACIDAD INCLUIDA EN EL HSL  */
+        background-color: hsl(212, 70%, 50%);
+        border: 4px solid white;
+        border-radius: 8px;
+        /*	overflow: scroll;*/
+
+
+        /*    opacity: 0.7;*/
+
+
+    }
+
+    .historia p {
+        font-size: 2em;
+        color: aliceblue;
+        /*    opacity: 1;*/
+    }
+
+    .imagenes p {
+        /*        padding-top: 3vh;*/
+        float: left;
+        font-size: 1.4em;
+        width: 30vw;
+    }
+
+    /*IMAGENES*/
+    .imagenes {
+        float: left;
+        padding: 52px 0px;
+        width: 90vw;
+
+    }
+
+    .imagenes img {
+        float: left;
+        width: 9vw;
+        height: auto;
+        margin-left: 25vw;
+        /*        border: 4px solid white;*/
+        border-radius: 8px;
+    }
+
+
+    .redes {
+        clear: both;
+
+    }
+
+    .redes img {
+        width: 6vw;
+        margin: 0px 8vw;
+
+    }
+    
+    
+     /*  TABLA  */
+    .equipo img {
+        width: 3vw;
+    }
+    
+    table{border-collapse: collapse;}
+    
+    table tr th , table tr td{
+        
+        width: 10vw;
+        border: 1px hsl(212, 70%, 50%) solid;
+       
+        text-align: center;
+        
+    }
+    
+    table tr th {
+        padding: 2vh 0px;
+        font-size: 2em;
+        background-color:hsl(212, 70%, 50%);
+        color: aliceblue;
+        
+        
+    }
+    
+    table tr td {
+        padding: 2vh 0px;
+        font-size: 1.6em;
+       
+        
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA 1024*/
+
+@media (max-width: 1024px) {
+
+/*
+    body {
+        
+    background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
+    background-size: cover;
+
+        background-color: red;
+    }
+*/
+
+    .general {
+        margin: 0px;
+        width: 90vw;
+        height: auto;
+        /*    background-color: hsl(0, 0%, 81%);*/
+
+    }
+
+
+
+    /*Cabecera*/
+
+    .cabecera {
+        float: left;
+        margin: 0px 0px;
+        margin-bottom: 0px;
+        width: 100%;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+    .cabecera h1 {
+
+        font-size: 4em;
+        color: aliceblue;
+
+
+    }
+
+    /*Logo*/
+    .cabecera img {
+        width: 200px;
+        height: auto;
+    }
+
+    /*Botones/links*/
+
+    .paginas {
+        float: left;
+        padding: 50px 0px;
+        width: 90vw;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 0px 0px 8px 8px;
+
+    }
+
+    .boton {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 7px;
+        color: black;
+        padding: 18px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+        width: 21vw;
+        font-size: 1.3em;
+
+    }
+
+    /*Boton coloreado que indica en que parte de las paginas esta*/
+    .marcador :first-child {
+        background-color: hsl(212, 70%, 50%);
+        color: aliceblue;
+        /*    border-color: aliceblue;*/
+    }
+
+    /*Al pulsar*/
+    .boton:active {
+        background-color: white;
+        color: hsl(212, 70%, 50%);
+        border-color: hsl(212, 70%, 50%);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+        transform: translateY(7px);
+    }
+
+    .boton:hover {}
+
+
+    /*Texto*/
+    .historia {
+        float: left;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+        /*  OPACIDAD INCLUIDA EN EL HSL  */
+        background-color: hsl(212, 70%, 50%);
+        border: 4px solid white;
+        border-radius: 8px;
+        /*	overflow: scroll;*/
+
+
+        /*    opacity: 0.7;*/
+
+
+    }
+
+    .historia p {
+        font-size: 2em;
+        color: aliceblue;
+        /*    opacity: 1;*/
+    }
+
+    .imagenes p {
+        /*        padding-top: 3vh;*/
+        float: left;
+        font-size: 1.17em;
+        width: 30vw;
+    }
+
+    /*IMAGENES*/
+    .imagenes {
+        float: left;
+        padding: 52px 0px;
+        width: 90vw;
+
+    }
+
+    .imagenes img {
+        float: left;
+        width: 15vw;
+        height: auto;
+        margin-left: 23vw;
+        /*        border: 4px solid white;*/
+        border-radius: 8px;
+    }
+
+
+    .redes {
+        clear: both;
+
+    }
+
+    .redes img {
+        width: 6vw;
+        margin: 0px 8vw;
+
+    }
+
+    .historia img {
+        margin-left: 27vw;
+        margin-top: 2vh;
+        float: left;
+        width: 11vw;
+    }
+
+     /*  TABLA  */
+    .equipo img {
+        width: 3vw;
+    }
+    
+    table{border-collapse: collapse;}
+    
+    table tr th , table tr td{
+        
+        width: 10vw;
+        border: 1px hsl(212, 70%, 50%) solid;
+       
+        text-align: center;
+        
+        
+    }
+    
+    table tr th {
+        padding: 2vh 0px;
+        font-size: 1.2em;
+        background-color:hsl(212, 70%, 50%);
+        color: aliceblue;
+         
+        
+    }
+    
+    table tr td {
+        padding: 2vh 0px;
+        font-size: 1em;
+     
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIAA 768*/
+@media (max-width: 768px) {
+
+/*
+    body {
+        
+    background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
+    background-size: cover;
+
+        background-color: aquamarine;
+    }
+*/
+
+    .general {
+        margin: 0px;
+        width: 90vw;
+        height: auto;
+        /*    background-color: hsl(0, 0%, 81%);*/
+
+    }
+
+
+
+    /*Cabecera*/
+
+    .cabecera {
+        float: left;
+        margin: 0px 0px;
+        margin-bottom: 0px;
+        width: 90vw;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 8px 8px 0px 0px;
+
+    }
+
+    .cabecera h1 {
+
+        font-size: 2em;
+        color: aliceblue;
+
+
+    }
+
+    /*Logo*/
+    .cabecera img {
+        width: 200px;
+        height: auto;
+    }
+
+    /*Botones/links*/
+
+    .paginas {
+        float: left;
+        padding: 15px 0px;
+        width: 100%;
+/*        background: hsl(212, 70%, 50%);*/
+        border-radius: 0px 0px 8px 8px;
+
+    }
+
+    .boton {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 7px;
+        color: black;
+        padding: 29px 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.49);
+        width: 19vw;
+        font-size: 0.8em;
+
+    }
+
+    /*Boton coloreado que indica en que parte de las paginas esta*/
+    .marcador :first-child {
+        background-color: hsl(212, 70%, 50%);
+        color: aliceblue;
+        /*    border-color: aliceblue;*/
+    }
+
+    /*Al pulsar*/
+    .boton:active {
+        background-color: white;
+        color: hsl(212, 70%, 50%);
+        border-color: hsl(212, 70%, 50%);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.9);
+        transform: translateY(7px);
+    }
+
+    .boton:hover {}
+
+
+    /*Texto*/
+    .historia {
+        float: left;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+        /*  OPACIDAD INCLUIDA EN EL HSL  */
+        background-color: hsl(212, 70%, 50%);
+        border: 4px solid white;
+        border-radius: 8px;
+        /*	overflow: scroll;*/
+
+
+        /*    opacity: 0.7;*/
+
+
+    }
+
+    .historia p {
+        font-size: 2em;
+        width: 40vw;
+        color: aliceblue;
+        /*    opacity: 1;*/
+    }
+
+    .imagenes p {
+        /*        padding-top: 1vh;*/
+        /*        float: left;*/
+        clear: both;
+        font-size: 1.17em;
+        width: 90vw;
+        margin-bottom: 10vw;
+    }
+
+    /*IMAGENES*/
+    .imagenes {
+        float: left;
+        padding: 52px 0px;
+        width: 90vw;
+
+    }
+
+    .imagenes img {
+        float: left;
+        width: 22vw;
+        height: auto;
+        margin-left: 35vw;
+
+        /*        border: 4px solid white;*/
+        border-radius: 8px;
+    }
+
+
+    .redes {
+        clear: both;
+
+    }
+
+    .redes img {
+        width: 6vw;
+        margin: 0px 8vw;
+
+    }
+
+    .historia img {
+        margin-left: 20vw;
+        margin-top: 5vh;
+        float: left;
+        width: 15vw;
+    }
+
+     /*  TABLA  */
+    .equipo img {
+        width: 3vw;
+    }
+    table{border-collapse: collapse;}
+    
+    table tr th , table tr td{
+        
+        width: 10vw;
+        border: 1px hsl(212, 70%, 50%) solid;
+       
+        text-align: center;
+        
+        
+    }
+    
+    table tr th {
+        padding: 2vh 0px;
+        font-size: 1.1em;
+        background-color:hsl(212, 70%, 50%);
+        color: aliceblue;
+        
+        
+    }
+    
+    table tr td {
+        padding: 2vh 0px;
+        font-size: 0.9em;
+         
+        
+    }
+
+
+}
