@@ -1,5 +1,18 @@
 /*FONDO DE PANTALL*/
 
+
+@font-face {
+
+    font-family: 'Roboto';
+    src: url("fonts/Roboto/Roboto-BlackItalic.ttf");
+
+
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
 @media (max-width: 2560px) {
 
     body {
@@ -42,6 +55,7 @@
 
         font-size: 3em;
         color: aliceblue;
+        font-family: 'Roboto', sans-serif;
 
 
     }
@@ -145,7 +159,7 @@
     .imagenes img {
 
         transition: all .9s ease;
-        
+
     }
 
     .imagenes img:hover {
@@ -184,8 +198,8 @@
         margin: 0px 8vw;
 
     }
-    
-    
+
+
 
 
 }

@@ -7,7 +7,7 @@
     background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
     background-size: cover;
 */
-        background-color:aliceblue;
+        background-color: aliceblue;
     }
 
     .general {
@@ -52,7 +52,7 @@
         float: left;
         padding: 50px 0px;
         width: 100%;
-        background-image: linear-gradient(white,hsl(212, 70%, 50%));
+        background-image: linear-gradient(white, hsl(212, 70%, 50%));
         border-radius: 0px 0px 8px 8px;
 
     }
@@ -156,7 +156,7 @@
     .redes img {
         width: 6vw;
         margin: 0px 8vw;
-        
+
 
     }
 
@@ -172,31 +172,35 @@
     .equipo img {
         width: 3vw;
     }
-    table{border-collapse: collapse;}
-    
-    table tr th , table tr td{
-        
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table tr th,
+    table tr td {
+
         width: 10vw;
         border: 1px hsl(212, 70%, 50%) solid;
-       
+
         text-align: center;
-        
-        
+
+
     }
-    
+
     table tr th {
         padding: 2vh 0px;
         font-size: 2em;
-        background-color:hsl(212, 70%, 50%);
+        background-color: hsl(212, 70%, 50%);
         color: aliceblue;
-        
-        
+
+
     }
-    
+
     table tr td {
         padding: 2vh 0px;
         font-size: 1.6em;
-       
+
     }
 
 
@@ -219,7 +223,7 @@
 
 @media (max-width: 1440px) {
 
-/*
+    /*
     body {
         
     background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
@@ -246,7 +250,7 @@
         margin: 0px 0px;
         margin-bottom: 0px;
         width: 100%;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 8px 8px 0px 0px;
 
     }
@@ -271,7 +275,7 @@
         float: left;
         padding: 50px 0px;
         width: 90vw;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 0px 0px 8px 8px;
 
     }
@@ -370,38 +374,41 @@
         margin: 0px 8vw;
 
     }
-    
-    
-     /*  TABLA  */
+
+
+    /*  TABLA  */
     .equipo img {
         width: 3vw;
     }
-    
-    table{border-collapse: collapse;}
-    
-    table tr th , table tr td{
-        
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table tr th,
+    table tr td {
+
         width: 10vw;
         border: 1px hsl(212, 70%, 50%) solid;
-       
+
         text-align: center;
-        
+
     }
-    
+
     table tr th {
         padding: 2vh 0px;
         font-size: 2em;
-        background-color:hsl(212, 70%, 50%);
+        background-color: hsl(212, 70%, 50%);
         color: aliceblue;
-        
-        
+
+
     }
-    
+
     table tr td {
         padding: 2vh 0px;
         font-size: 1.6em;
-       
-        
+
+
     }
 
 
@@ -426,7 +433,7 @@
 
 @media (max-width: 1024px) {
 
-/*
+    /*
     body {
         
     background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
@@ -453,7 +460,7 @@
         margin: 0px 0px;
         margin-bottom: 0px;
         width: 100%;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 8px 8px 0px 0px;
 
     }
@@ -478,7 +485,7 @@
         float: left;
         padding: 50px 0px;
         width: 90vw;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 0px 0px 8px 8px;
 
     }
@@ -585,37 +592,40 @@
         width: 11vw;
     }
 
-     /*  TABLA  */
+    /*  TABLA  */
     .equipo img {
         width: 3vw;
     }
-    
-    table{border-collapse: collapse;}
-    
-    table tr th , table tr td{
-        
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table tr th,
+    table tr td {
+
         width: 10vw;
         border: 1px hsl(212, 70%, 50%) solid;
-       
+
         text-align: center;
-        
-        
+
+
     }
-    
+
     table tr th {
         padding: 2vh 0px;
         font-size: 1.2em;
-        background-color:hsl(212, 70%, 50%);
+        background-color: hsl(212, 70%, 50%);
         color: aliceblue;
-         
-        
+
+
     }
-    
+
     table tr td {
         padding: 2vh 0px;
         font-size: 1em;
-     
-        
+
+
     }
 
 
@@ -647,7 +657,7 @@
 /*MEDIAA 768*/
 @media (max-width: 768px) {
 
-/*
+    /*
     body {
         
     background-image: url(file:///F:/Dise%C3%B1os%20interfaces%20web/Miniproyecto%202/IMAGENES/fondo_campo.jpg);
@@ -674,7 +684,7 @@
         margin: 0px 0px;
         margin-bottom: 0px;
         width: 90vw;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 8px 8px 0px 0px;
 
     }
@@ -699,7 +709,7 @@
         float: left;
         padding: 15px 0px;
         width: 100%;
-/*        background: hsl(212, 70%, 50%);*/
+        /*        background: hsl(212, 70%, 50%);*/
         border-radius: 0px 0px 8px 8px;
 
     }
@@ -810,36 +820,40 @@
         width: 15vw;
     }
 
-     /*  TABLA  */
+    /*  TABLA  */
     .equipo img {
         width: 3vw;
     }
-    table{border-collapse: collapse;}
-    
-    table tr th , table tr td{
-        
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table tr th,
+    table tr td {
+
         width: 10vw;
         border: 1px hsl(212, 70%, 50%) solid;
-       
+
         text-align: center;
-        
-        
+
+
     }
-    
+
     table tr th {
         padding: 2vh 0px;
         font-size: 1.1em;
-        background-color:hsl(212, 70%, 50%);
+        background-color: hsl(212, 70%, 50%);
         color: aliceblue;
-        
-        
+
+
     }
-    
+
     table tr td {
         padding: 2vh 0px;
         font-size: 0.9em;
-         
-        
+
+
     }
 
 
